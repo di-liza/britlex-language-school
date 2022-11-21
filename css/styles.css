@@ -1,0 +1,352 @@
+:root {
+  --primary-text-color: #8f95a5;
+  --black-text-color: #000000;
+  --dark-text-color: #263238;
+
+  --skills-section-cards-bacground-color: #f5f5f5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  /* background-color: rgb(212, 212, 212); */
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color-color);
+  line-height: 1.5;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1378px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  width: auto;
+  padding-top: 180px;
+}
+.section-title {
+  margin-bottom: 60px;
+
+  color: var(--black-text-color);
+  font-weight: 600;
+  font-size: 48px;
+}
+.header {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+}
+
+.header-posotion-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav .logo {
+  margin-right: 236px;
+}
+.logo {
+  font-size: 36px;
+  color: var(--black-text-color);
+}
+.logo-accent {
+  color: #939393;
+}
+.header-nav-links-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header-nav-links-list-item {
+  /* padding-top: 75px;
+  padding-bottom: 75px; */
+}
+.header-links-list-item-link {
+  display: block;
+
+  color: var(--dark-text-color);
+  font-size: 20px;
+  font-weight: 500;
+
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.header-contact-link {
+  margin-left: auto;
+
+  width: 312px;
+  height: 70px;
+
+  border: 2px solid var(--dark-text-color);
+  border-radius: 10px;
+}
+.header-link-bnt {
+  display: inline-block;
+  width: 300px;
+  padding: 20px 56px;
+
+  text-align: center;
+  color: var(--black-text-color);
+  font-size: 20px;
+  letter-spacing: 0.03em;
+}
+.hero {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.hero-posotion-container {
+  display: flex;
+}
+.hero-title {
+  width: 386px;
+  margin-bottom: 40px;
+
+  color: var(--black-text-color);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+}
+.hero-dscr {
+  width: 540px;
+
+  font-size: 24px;
+  color: var(--primary-text-color);
+}
+.hero-btn {
+  display: block;
+  margin-top: 60px;
+
+  width: 426px;
+  height: 100px;
+
+  background-color: var(--dark-text-color);
+  border: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+
+  color: #fff;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+.hero-img {
+  width: 654px;
+  height: 510px;
+  margin-left: auto;
+
+  background-image: url(../img/learning-languages.svg);
+}
+.skills {
+  width: 100%;
+}
+
+.skills-title {
+  text-align: center;
+}
+.skills-list {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.skills-list-item {
+  padding-left: 18px;
+  padding-right: 18px;
+
+  color: var(--primary-text-color);
+  font-size: 14px;
+
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.skills-list-dscr-item:nth-child(2) {
+  margin-bottom: 30px;
+}
+.skills-list-item:nth-child(1) {
+  width: 426px;
+  padding-bottom: 154px;
+}
+.skills-list-item:nth-child(2) {
+  width: 426px;
+  padding-bottom: 32px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 32px;
+}
+.skills-list-item:nth-child(3) {
+  width: 426px;
+  padding-bottom: 32px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 32px;
+}
+.skills-list-item:nth-child(4) {
+  display: flex;
+  position: absolute;
+  top: 578px;
+
+  width: 882px;
+  padding-bottom: 79px;
+}
+.skills-list-item-text-container {
+  width: 324px;
+}
+.skills-list-item-title {
+  margin-bottom: 20px;
+
+  color: var(--dark-text-color);
+  font-weight: 600;
+  font-size: 30px;
+}
+.skills-list-item-text-container h3 {
+  margin-top: 32px;
+}
+.skills-list-item-dscr {
+  margin-bottom: 30px;
+}
+.skills-list-item-btn-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 60px;
+
+  border-radius: 10px;
+  background-color: var(--dark-text-color);
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.skills-list-item-img-1 {
+  width: 390px;
+  height: 390px;
+  margin-top: 32px;
+  margin-bottom: 44px;
+
+  background-image: url(../img/shared-goals-bro-1.svg);
+}
+.skills-list-item-img-2 {
+  width: 390px;
+  height: 264px;
+  background-image: url(../img/typewriter-bro-1.svg);
+}
+.skills-list-item-img-3 {
+  width: 390px;
+  height: 264px;
+  background-image: url(../img/house-bookshelves-bro\ .svg);
+}
+.skills-list-item-img-4 {
+  width: 408px;
+  height: 274px;
+  margin-left: 114px;
+  background-image: url(../img/podcast-audience-bro-1.svg);
+}
+.about-us-posotion-container {
+  display: flex;
+  gap: 146px;
+}
+.about-us-dcscr {
+  width: 652px;
+
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+}
+.about-us-list {
+  display: flex;
+  gap: 131px;
+
+  margin-top: 30px;
+}
+.about-us-list-item {
+  text-align: center;
+}
+.about-us-list-item:nth-child(3) {
+  width: 108px;
+}
+.about-us-list-item-num {
+  font-size: 48px;
+  font-weight: 600;
+}
+.about-us-list-item-num-dcscr {
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+}
+.about-us-img {
+  width: 540px;
+  height: 540px;
+  background-image: url(../img/business-competition-bro-1.svg);
+}
+.pricing-title {
+  text-align: center;
+}
+.pricing-list-item-img-1 {
+  width: 426px;
+  height: 320px;
+  background-image: url(../img/online.svg);
+}
+.pricing-list-item-img-2 {
+  width: 426px;
+  height: 320px;
+  background-image: url(../img/lesson.svg);
+}
+.pricing-list-item-img-3 {
+  width: 426px;
+  height: 320px;
+  background-image: url(../img/webinar.svg);
+}
+.contact-title {
+  text-align: left;
+}
+.contact-position-container {
+  display: flex;
+  height: 440px;
+  gap: 145px;
+}
+.contact-text-form-cont {
+  display: flex;
+  flex-direction: column;
+
+  width: 767px;
+}
+.contact-dscr {
+  width: 654px;
+  color: var(--primary-text-color);
+  font-size: 20px;
+}
+.contact-img {
+  width: 425px;
+  height: 430px;
+  background-image: url(../img/contact.svg);
+}
+.footer-position-cont {
+  border-top: 1px solid #c4c4c4;
+}
