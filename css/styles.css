@@ -19,7 +19,6 @@ img {
   max-width: 100%;
 }
 body {
-  background-color: rgb(212, 212, 212);
   font-family: "Poppins", sans-serif;
   color: var(--primary-text-color-color);
   line-height: 1.5;
@@ -78,10 +77,7 @@ body {
   align-items: center;
   gap: 50px;
 }
-.header-nav-links-list-item {
-  /* padding-top: 75px;
-  padding-bottom: 75px; */
-}
+
 .header-links-list-item-link {
   display: block;
 
