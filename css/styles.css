@@ -19,7 +19,7 @@ img {
   max-width: 100%;
 }
 body {
-  /* background-color: rgb(212, 212, 212); */
+  background-color: rgb(212, 212, 212);
   font-family: "Poppins", sans-serif;
   color: var(--primary-text-color-color);
   line-height: 1.5;
@@ -50,10 +50,8 @@ body {
   font-weight: 600;
   font-size: 48px;
 }
+/* ----------HEADER---------- */
 .header {
-  width: 100%;
-}
-.footer {
   width: 100%;
 }
 
@@ -96,23 +94,24 @@ body {
 }
 .header-contact-link {
   margin-left: auto;
-
-  width: 312px;
-  height: 70px;
+}
+.header-link-bnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   border: 2px solid var(--dark-text-color);
   border-radius: 10px;
-}
-.header-link-bnt {
-  display: inline-block;
+
   width: 300px;
-  padding: 20px 56px;
+  height: 70px;
 
   text-align: center;
   color: var(--black-text-color);
   font-size: 20px;
   letter-spacing: 0.03em;
 }
+/* ----------HERO---------- */
 .hero {
   width: 100%;
   padding-top: 0;
@@ -160,6 +159,7 @@ body {
 
   background-image: url(../img/learning-languages.svg);
 }
+/* ----------SKILLS---------- */
 .skills {
   width: 100%;
 }
@@ -268,6 +268,7 @@ body {
   margin-left: 114px;
   background-image: url(../img/podcast-audience-bro-1.svg);
 }
+/* ----------ABOUT US---------- */
 .about-us-posotion-container {
   display: flex;
   gap: 146px;
@@ -305,24 +306,70 @@ body {
   height: 540px;
   background-image: url(../img/business-competition-bro-1.svg);
 }
+/* ----------PRICING---------- */
 .pricing-title {
   text-align: center;
 }
-.pricing-list-item-img-1 {
+.pricing-list {
+  display: flex;
+
+  width: 1378px;
+  gap: 30px;
+
+  margin: 0;
+  padding: 0;
+}
+.pricing-list-item {
+  height: 584px;
+  width: 428px;
+}
+.pricing-list > .pricing-list-item {
+  flex-basis: calc((100% - 30px) / 3);
+}
+.item-img {
+  margin-bottom: 31px;
   width: 426px;
   height: 320px;
+}
+.pricing-list-item-img-1 {
   background-image: url(../img/online.svg);
 }
 .pricing-list-item-img-2 {
-  width: 426px;
-  height: 320px;
   background-image: url(../img/lesson.svg);
 }
 .pricing-list-item-img-3 {
-  width: 426px;
-  height: 320px;
   background-image: url(../img/webinar.svg);
 }
+.pricing-list-item-title {
+  margin-bottom: 20px;
+
+  color: #263238;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+}
+.pricing-list-item-dscr {
+  color: var(--primary-text-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.pricing-list-item-price-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 28px;
+  width: 260px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: auto;
+
+  background-color: #eeeeee;
+  border: transparent;
+  border-radius: 5px;
+}
+/* ----------CONTACT---------- */
 .contact-title {
   text-align: left;
 }
@@ -338,6 +385,7 @@ body {
   width: 767px;
 }
 .contact-dscr {
+  margin-bottom: 31px;
   width: 654px;
   color: var(--primary-text-color);
   font-size: 20px;
@@ -347,6 +395,65 @@ body {
   height: 430px;
   background-image: url(../img/contact.svg);
 }
+.contact-form {
+  display: flex;
+  gap: 30px;
+}
+.contact-form-fill {
+  width: 425px;
+  height: 74px;
+
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 30px;
+
+  border: 1px solid var(--primary-text-color);
+  border-radius: 10px;
+  background-color: transparent;
+
+  color: var(--primary-text-color);
+  line-height: 1.875;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact-btn {
+  display: block;
+  justify-content: center;
+  text-align: flex-start;
+  width: 312px;
+  height: 74px;
+
+  background-color: #263238;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+/* ----------FOOTER---------- */
+.footer {
+  width: 100%;
+}
 .footer-position-cont {
+  display: flex;
+  padding-top: 31px;
+  padding-bottom: 86px;
+
   border-top: 1px solid #c4c4c4;
+}
+.footer-links-list {
+  display: flex;
+  gap: 80px;
+  margin-left: auto;
+}
+.footer-links-list-item-link {
+  color: var(--primary-text-color);
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  line-height: 1.5;
 }
