@@ -344,6 +344,13 @@ body {
   font-size: 30px;
   line-height: 1.6;
 }
+.pricing-list-item-dscr-position {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+
+  height: 168px;
+}
 .pricing-list-item-dscr {
   color: var(--primary-text-color);
   font-size: 20px;
